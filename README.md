@@ -7,6 +7,6 @@ This algorithm is implemented and applied to two time series data originating fr
 
 The second time series is the rate of change of stock prices, $close[i]/close[i-1] - 1$, this is referenced in the original paper (https://arxiv.org/abs/0710.3742) where the method is first proposed. This time series is modeled by picking predictive distribution to have mean 0 and unknown variance, whereas the inverse variance (precision) is set to have gamma prior. As in the previous case, a plot showing the most probable changepoints is provided.
 
-This project, as well as some of the codes (especially parts on plotting and numerical stability）, is inspired by this series of blogs introducing the changepoint detection method as well as the example given using artificially generated data.
+This project, as well as some of the codes (especially parts on plotting and numerical stability）, is inspired by this series of blogs (https://gregorygundersen.com/blog/2019/08/13/bocd/) introducing the changepoint detection method as well as the example given using artificially generated data.
 
 
